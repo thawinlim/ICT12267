@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AS6 68105428</title>
+  <link rel="stylesheet" href="AS6css.css">
+</head>
+<body>
+
+  <!-- Dark Mode Toggle -->
+  <div class="toggle-container">
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+  </div>
+
+  <!-- 1. Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to SanDee Cafe</h1>
+      <p>คาเฟ่บรรยากาศอบอุ่น สำหรับคนรักกาแฟ</p>
+      <a href="#" class="btn">อ่านต่อ</a>
+    </div>
+  </section>
+
+  <!-- 2. Heading Section -->
+  <section class="heading">
+    <h2>เมนูแนะนำของเรา</h2>
+    <p>คัดสรรวัตถุดิบคุณภาพดี พร้อมเสิร์ฟทุกวัน</p>
+  </section>
+
+  <!-- 3. Gallery Section -->
+  <section class="gallery">
+    <img src="https://cdn.pixabay.com/photo/2020/09/13/04/13/coffee-5567269_1280.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2019/06/12/20/19/coffee-4270159_1280.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2019/11/11/15/32/coffee-4618705_1280.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2017/05/30/12/19/matcha-latte-2356763_1280.jpg" alt="">
+  </section>
+
+  <!-- 4. Card Section -->
+  <section class="cards">
+    <div class="card">
+      <h3>Espresso</h3>
+      <p>กาแฟเข้มข้น หอมกรุ่น</p>
+    </div>
+    <div class="card">
+      <h3>Cappuccino</h3>
+      <p>นุ่มละมุน พร้อมฟองนม</p>
+    </div>
+    <div class="card">
+      <h3>Latte</h3>
+      <p>รสชาติกลมกล่อม</p>
+    </div>
+    <div class="card">
+      <h3>Matcha</h3>
+      <p>ชาเขียวแท้จากญี่ปุ่น</p>
+    </div>
+  </section>
+
+  <!-- 5. Footer -->
+  <footer>
+    <h3>จัดทำโดย 68105428 Thawin Limpukdeeku </h3>
+    <p>© มหาวิทยาลัยศรีปทุม 2410/2 ถ.พหลโยธิน เขตจตุจักร กรุงเทพฯ 10900.</p>
+    <div class="social">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+<script>
+  const toggle = document.getElementById("darkModeToggle");
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+  });
+</script>
+
+</body>
+</html>
